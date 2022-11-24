@@ -11,5 +11,5 @@ phases:
       - dotnet restore 
   build:
     commands:      
-      - dotnet build -c Release ./TestAPI.csproj
+      - dotnet build -c Release ./Api/TestAPI.csproj
       - dotnet test -c Release 
