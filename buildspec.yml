@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       dotnet: 5.0
 
-  prebuild:
+  pre_build:
     commands:
       - echo Restore started on `date`
       - dotnet restore 
